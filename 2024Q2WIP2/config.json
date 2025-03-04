@@ -1,0 +1,170 @@
+{
+    "cloud-id": 18448233,
+    "organization-id": "6ecada8eb0dba68ab27ad7d6b7eaa054",
+    "channel-id": "LOCAL-2e3776b3e44226c07db14070a547383c",
+    "description": "",
+    "algorithm-language": "Python",
+    "parameters": {
+        "slow_length": "29",
+        "fast_length": "12",
+        "trailing_stop": ".25",
+        "days_breaking": "3",
+        "leading_band": "1.25",
+        "price_rolling": "35",
+        "universe_filter": "top",
+        "trend_threshold": ".1",
+        "aroon_threshold": "75",
+        "max_position_size": ".15",
+        "final_universe_size": "1000",
+        "rsi_rolling": "10",
+        "trend_distance": "0",
+        "atr_multiplier": "1",
+        "adx_threshold": "35",
+        "sell_rsi_margin": "15",
+        "rsi_threshold": "1",
+        "resolution": "hour",
+        "days_breaking_trend": "30",
+        "days_doing_nothing": "35",
+        "portfolio_weight_bias": "300"
+    },
+    "backtestGrid": {
+        "lg": [
+            {
+                "chartName": "Strategy Equity",
+                "width": 12,
+                "height": 4,
+                "row": 1,
+                "column": 1,
+                "sort": 11
+            },
+            {
+                "chartName": "Portfolio Margin",
+                "width": 12,
+                "height": 4,
+                "row": 5,
+                "column": 1,
+                "sort": 51
+            },
+            {
+                "chartName": "Exposure",
+                "width": 12,
+                "height": 4,
+                "row": 9,
+                "column": 1,
+                "sort": 91
+            }
+        ],
+        "xl": [
+            {
+                "chartName": "Strategy Equity",
+                "width": 12,
+                "height": 4,
+                "row": 1,
+                "column": 1,
+                "sort": 11
+            },
+            {
+                "chartName": "Portfolio Margin",
+                "width": 12,
+                "height": 4,
+                "row": 5,
+                "column": 1,
+                "sort": 51
+            },
+            {
+                "chartName": "profit",
+                "width": 12,
+                "height": 4,
+                "row": 9,
+                "column": 1,
+                "sort": 91
+            }
+        ],
+        "md": [
+            {
+                "chartName": "Strategy Equity",
+                "width": 12,
+                "height": 4,
+                "row": 1,
+                "column": 1,
+                "sort": 11
+            },
+            {
+                "chartName": "aroon",
+                "width": 12,
+                "height": 4,
+                "row": 5,
+                "column": 1,
+                "sort": 51
+            },
+            {
+                "chartName": "sma",
+                "width": 12,
+                "height": 4,
+                "row": 9,
+                "column": 1,
+                "sort": 91
+            },
+            {
+                "chartName": "Portfolio Margin",
+                "width": 12,
+                "height": 4,
+                "row": 13,
+                "column": 1,
+                "sort": 131
+            }
+        ],
+        "sm": [
+            {
+                "chartName": "Strategy Equity",
+                "width": 12,
+                "height": 6,
+                "row": 1,
+                "column": 1,
+                "sort": 11
+            },
+            {
+                "chartName": "Portfolio Margin",
+                "width": 12,
+                "height": 4,
+                "row": 7,
+                "column": 1,
+                "sort": 71
+            },
+            {
+                "chartName": "Assets Sales Volume",
+                "width": 12,
+                "height": 4,
+                "row": 11,
+                "column": 1,
+                "sort": 111
+            },
+            {
+                "chartName": "price",
+                "width": 12,
+                "height": 4,
+                "row": 15,
+                "column": 1,
+                "sort": 151
+            },
+            {
+                "chartName": "Exposure",
+                "width": 12,
+                "height": 4,
+                "row": 19,
+                "column": 1,
+                "sort": 191
+            },
+            {
+                "chartName": "profit",
+                "width": 12,
+                "height": 4,
+                "row": 26,
+                "column": 1,
+                "sort": 261
+            }
+        ]
+    },
+    "python-venv": 1,
+    "local-id": 156585624
+}

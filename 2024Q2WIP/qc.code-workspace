@@ -1,0 +1,55 @@
+{
+    "folders": [
+        {
+            "name": "Project",
+            "path": "c:\\Users\\charl\\QuantConnectRITOrg\\2024Q2WIP"
+        }
+    ],
+    "settings": {
+        "python.autoComplete.extraPaths": [
+            "c:\\Users\\charl\\QuantConnectRITOrg\\Library"
+        ],
+        "python.analysis.extraPaths": [
+            "c:\\Users\\charl\\QuantConnectRITOrg\\Library"
+        ],
+        "files.autoSave": "afterDelay",
+        "files.exclude": {
+            "**.vscode": true,
+            "**.idea": true,
+            "config.json": true,
+            "qc.code-workspace": true,
+            "bin": true,
+            "obj": true,
+            "backtests": true,
+            "live": true,
+            "optimizations": true,
+            "storage": true,
+            "report": true,
+            "__pycache__": true,
+            ".ipynb_checkpoints": true,
+            ".idea": true,
+            ".vscode": true
+        },
+        "files.watcherExclude": {
+            "bin/**": true,
+            "obj/**": true,
+            "backtests/**": true,
+            "live/**": true,
+            "optimizations/**": true,
+            "storage/**": true,
+            "report/**": true,
+            "__pycache__/**": true,
+            ".ipynb_checkpoints/**": true,
+            ".idea/**": true,
+            ".vscode/**": true
+        },
+        "files.readonlyInclude": {
+            "**/*.py": false,
+            "**/*.cs": false,
+            "**/*.ipynb": false,
+            "c:/Users/charl/QuantConnectRITOrg/2024Q2WIP/**/*.py": false,
+            "c:/Users/charl/QuantConnectRITOrg/2024Q2WIP/**/*.cs\"": false,
+            "c:/Users/charl/QuantConnectRITOrg/2024Q2WIP/**/*.ipynb": false
+        }
+    }
+}
